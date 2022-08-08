@@ -24,9 +24,9 @@ jobs:
         run: npm run build --if-present
         env:
           REACT_APP_DASHBORAD_URL: https://api.dashboard.pstake.finance
-          REACT_APP_STK_BNB_CONTRACT_ADDRESS: 0xc2E9d07F66A89c44062459A47a0D2Dc038E4fb16
-          REACT_APP_STAKE_POOL_CONTRACT_ADDRESS: 0xC228CefDF841dEfDbD5B3a18dFD414cC0dbfa0D8
-          REACT_APP_BNB_CHAIN_RPC_URL: https://bsc-mainnet.nodereal.io/v1/9077738996654734a214979c60a7846d
+          REACT_APP_STK_BNB_CONTRACT_ADDRESS: '0xc2E9d07F66A89c44062459A47a0D2Dc038E4fb16'
+          REACT_APP_STAKE_POOL_CONTRACT_ADDRESS: '0xC228CefDF841dEfDbD5B3a18dFD414cC0dbfa0D8'
+          REACT_APP_BNB_CHAIN_RPC_URL: 'https://bsc-mainnet.nodereal.io/v1/9077738996654734a214979c60a7846d'
       - name: Publish
         uses: cloudflare/wrangler-action@1.3.0
         with:
