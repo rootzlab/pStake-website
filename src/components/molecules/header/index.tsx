@@ -178,13 +178,6 @@ const Header = () => {
 
   const aboutList = [
     {
-      optionName: t("NAV_ABOUT_6_TITLE"),
-      subText: t("NAV_ABOUT_6_SUB_TITLE"),
-      icon: "team",
-      iconType: "stroke",
-      optionLink: "/team",
-    },
-    {
       optionName: t("NAV_ABOUT_7_TITLE"),
       subText: t("NAV_ABOUT_7_SUB_TITLE"),
       icon: "pstake",

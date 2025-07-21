@@ -115,12 +115,6 @@ const FooterBottom = () => {
   const aboutList = [
     {
       externLink: false,
-      link: "/team",
-      text: t("NAV_ABOUT_6_TITLE"),
-    },
-
-    {
-      externLink: false,
       link: "/pstake",
       text: t("NAV_ABOUT_7_TITLE"),
     },

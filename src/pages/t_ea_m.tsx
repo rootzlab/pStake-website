@@ -4,7 +4,7 @@ import Footer from "../components/molecules/Footer";
 import People from "../components/organisms/team/people";
 import BitcoinBanner from "../components/organisms/team/join-team";
 
-const Team:NextPage = () => {
+const T_ea_m:NextPage = () => {
   return(
     <>
       <People/>
@@ -14,4 +14,4 @@ const Team:NextPage = () => {
   )
 }
 
-export default Team;
+export default T_ea_m;
