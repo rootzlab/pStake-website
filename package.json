@@ -21,7 +21,7 @@
     "lodash": "^4.17.21",
     "long": "^5.2.1",
     "moment": "^2.29.4",
-    "next": "^13.4.19",
+    "next": "^15.5.4",
     "next-export-i18n": "^2.1.0",
     "npm": "^10.5.2",
     "persistenceonejs": "^2.4.0-rc0",
