@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "ai": "AI",
+    "governance": "거버넌스",
+    "community": "커뮤니티",
+    "product": "제품",
+    "research": "연구",
+    "innovationFund": "혁신 펀드",
+    "blog": "블로그",
+    "governanceForum": "거버넌스 포럼",
+    "governanceProcess": "거버넌스 프로세스",
+    "snapshotVoting": "스냅샷 투표",
+    "communityHub": "커뮤니티 허브",
+    "roadmap": "로드맵",
+    "securityAudit": "보안 감사",
+    "bitcoinLiquidStaking": "비트코인 유동성 스테이킹",
+    "bitcoin101": "비트코인 101",
+    "guides": "가이드",
+    "bridge": "브리지",
+    "ethToBaseBridge": "ETH to Base 브리지",
+    "ethToCosmosBridge": "ETH to Cosmos 브리지",
+    "ethToBnbBridge": "ETH to BNB 브리지",
+    "ethToOptimismBridge": "ETH to Optimism 브리지",
+    "staking": "스테이킹",
+    "liquidStaking": "유동성 스테이킹",
+    "pstakeStaking": "PSTAKE 스테이킹",
+    "institutionalStaking": "기관 스테이킹"
+  },
+  "home": {
+    "heroTitle": "Web3 및 AI 협업을 위한",
+    "heroSubtitle": "연구 레이어",
+    "heroDescription": "PSTAKE 연구 원시는 자율적 행동, 모듈식 자산 및 크로스체인 상호 운용성을 갖추고 있습니다.",
+    "learnMore": "더 알아보기",
+    "getStarted": "시작하기",
+    "whatWeAreAbout": "우리가 하는 일",
+    "mission": "AI, Web3 및 전통 경제를 연결하는 지능 계층을 연구합니다.",
+    "description": "PSTAKE 연구는 AI, Web3 및 전통 금융이 융합되는 지능 계층을 탐구합니다. 검증 가능한 경제의 미래를 형성합니다."
+  },
+  "footer": {
+    "tagline": "AI 네이티브 자산의 미래 연구",
+    "ecosystem": "생태계",
+    "community": "커뮤니티",
+    "product": "제품",
+    "pressKit": "프레스 키트",
+    "learn": "학습",
+    "rightsReserved": "모든 권리 보유",
+    "termsOfService": "서비스 약관",
+    "privacyPolicy": "개인정보 보호정책"
+  },
+  "common": {
+    "copyright": "© PSTAKE Finance"
+  }
+}
+

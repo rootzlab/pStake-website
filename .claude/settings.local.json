@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(cat:*)",
+      "Bash(head:*)",
+      "WebSearch",
+      "WebFetch(domain:medium.com)",
+      "WebFetch(domain:betterprogramming.pub)",
+      "WebFetch(domain:quickcoder.org)",
+      "Bash(npm run build:*)",
+      "mcp__ide__getDiagnostics",
+      "WebFetch(domain:www.figma.com)",
+      "WebFetch(domain:127.0.0.1)",
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "Bash(pnpm run build)",
+      "Bash(curl:*)",
+      "WebFetch(domain:mediumapi.com)",
+      "WebFetch(domain:docs.mediumapi.com)",
+      "WebFetch(domain:rapidapi.com)",
+      "Bash(npx tsc:*)",
+      "Bash(python3:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
