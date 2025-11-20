@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "ai": "AI",
+    "governance": "Governance",
+    "community": "Community",
+    "product": "Product",
+    "research": "Research",
+    "innovationFund": "Innovation Fund",
+    "blog": "Blog",
+    "governanceForum": "Governance Forum",
+    "governanceProcess": "Governance Process",
+    "snapshotVoting": "Snapshot Voting",
+    "communityHub": "Community Hub",
+    "roadmap": "Roadmap",
+    "securityAudit": "Security Audit",
+    "bitcoinLiquidStaking": "Bitcoin Liquid Staking",
+    "bitcoin101": "Bitcoin 101",
+    "guides": "Guides",
+    "bridge": "Bridge",
+    "ethToBaseBridge": "ETH to Base Bridge",
+    "ethToCosmosBridge": "ETH to Cosmos Bridge",
+    "ethToBnbBridge": "ETH to BNB Bridge",
+    "ethToOptimismBridge": "ETH to Optimism Bridge",
+    "staking": "Staking",
+    "liquidStaking": "Liquid Staking",
+    "pstakeStaking": "PSTAKE Staking",
+    "institutionalStaking": "Institutional Staking"
+  },
+  "home": {
+    "heroTitle": "The Research Layer for",
+    "heroSubtitle": "Web3 & AI Collaboration",
+    "heroDescription": "PSTAKE Research primitives with autonomous action, modular assets, and cross-chain interoperability.",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "whatWeAreAbout": "WHAT WE'RE ALL ABOUT",
+    "mission": "Researching the intelligence layer connecting AI, Web3, and the traditional economy.",
+    "description": "PSTAKE Research explores the intelligence layer where AI, Web3, and traditional finance converge; shaping the future of verifiable economies."
+  },
+  "footer": {
+    "tagline": "Researching the future of AI-native Assets",
+    "ecosystem": "Ecosystem",
+    "community": "Community",
+    "product": "Product",
+    "pressKit": "Press Kit",
+    "learn": "Learn",
+    "rightsReserved": "Rights Reserved",
+    "termsOfService": "Terms Of Service",
+    "privacyPolicy": "Privacy Policy"
+  },
+  "common": {
+    "copyright": "© PSTAKE Finance"
+  }
+}
+

@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+a {
+  cursor: pointer;
+}
+
+:root {
+    --rem-base: calc(100vw / 1512px * 10px);
+    font-size: var(--rem-base);
+}
+
+/* 自定义 mobile 断点（≤767px）用于 `mobile:` 变体 */
+@custom-variant mobile {
+  @media (width <= 767px) {
+    @slot;
+  }
+}
+
+/* PP Mori字体类定义 */
+.font-pp-mori {
+  font-family: var(--font-pp-mori-regular), -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.font-pp-mori-extralight {
+  font-family: var(--font-pp-mori-extralight), -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.font-pp-mori-semibold {
+  font-family: var(--font-pp-mori-semibold), -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  background: #F7F7F7;
+  color: #160704;
+  font-family: var(--font-pp-mori-regular), -apple-system, BlinkMacSystemFont, sans-serif;
+}
+img{
+  display: block;
+}
+
+@media screen and (max-width: 767px) {
+  :root {
+    --rem-base: calc(100vw / 768px * 16px);
+    font-size: var(--rem-base);
+  }
+}
+
+@media (width > 767px) {
+  .navbar-mobile-overlay {
+    display: none !important;
+  }
+}
+
+/* 骨架屏加载动画 */
+@keyframes skeleton-loading {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.skeleton-loading {
+  background: linear-gradient(
+    90deg,
+    rgba(37, 68, 65, 0.06) 0%,
+    rgba(37, 68, 65, 0.12) 50%,
+    rgba(37, 68, 65, 0.06) 100%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s ease-in-out infinite;
+}

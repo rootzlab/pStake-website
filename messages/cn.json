@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "ai": "AI",
+    "governance": "治理",
+    "community": "社区",
+    "product": "产品",
+    "research": "研究",
+    "innovationFund": "创新基金",
+    "blog": "博客",
+    "governanceForum": "治理论坛",
+    "governanceProcess": "治理流程",
+    "snapshotVoting": "快照投票",
+    "communityHub": "社区中心",
+    "roadmap": "路线图",
+    "securityAudit": "安全审计",
+    "bitcoinLiquidStaking": "比特币流动性质押",
+    "bitcoin101": "比特币101",
+    "guides": "指南",
+    "bridge": "桥接",
+    "ethToBaseBridge": "ETH到Base桥接",
+    "ethToCosmosBridge": "ETH到Cosmos桥接",
+    "ethToBnbBridge": "ETH到BNB桥接",
+    "ethToOptimismBridge": "ETH到Optimism桥接",
+    "staking": "质押",
+    "liquidStaking": "流动性质押",
+    "pstakeStaking": "PSTAKE质押",
+    "institutionalStaking": "机构质押"
+  },
+  "home": {
+    "heroTitle": "Web3与AI协作的",
+    "heroSubtitle": "研究层",
+    "heroDescription": "PSTAKE研究原语具有自主行动、模块化资产和跨链互操作性。",
+    "learnMore": "了解更多",
+    "getStarted": "开始使用",
+    "whatWeAreAbout": "我们的使命",
+    "mission": "研究连接AI、Web3和传统经济的智能层。",
+    "description": "PSTAKE研究探索AI、Web3和传统金融融合的智能层；塑造可验证经济的未来。"
+  },
+  "footer": {
+    "tagline": "研究AI原生资产的未来",
+    "ecosystem": "生态系统",
+    "community": "社区",
+    "product": "产品",
+    "pressKit": "媒体资料包",
+    "learn": "学习",
+    "rightsReserved": "保留所有权利",
+    "termsOfService": "服务条款",
+    "privacyPolicy": "隐私政策"
+  },
+  "common": {
+    "copyright": "© PSTAKE Finance"
+  }
+}
+
