@@ -17,7 +17,7 @@
 
 ### 方案 1: 强制动态渲染（已实施）
 
-**修改文件:** `app/pages/blog/page.tsx`
+**修改文件:** `app/blog/page.tsx`
 
 **添加（第 15 行）:**
 ```typescript

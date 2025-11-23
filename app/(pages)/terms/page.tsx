@@ -20,7 +20,7 @@ export async function generateMetadata(): Promise<Metadata> {
     return generatePageMetadata({
         title: "Terms",
         description: descriptions[locale],
-        path: "/pages/terms",
+        path: "/terms",
         locale,
     });
 }

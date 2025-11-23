@@ -21,7 +21,7 @@
 
 ### 修改 1: 博客页面改用 API 路由
 
-**文件:** `app/pages/blog/page.tsx`
+**文件:** `app/blog/page.tsx`
 
 **修改前：**
 ```typescript
@@ -56,7 +56,7 @@ articles = feed.articles;
 
 ### 修改 2: 移除 Unit5 组件的硬编码限制
 
-**文件:** `app/pages/blog/_components/Unit5/index.tsx`
+**文件:** `app/blog/_components/Unit5/index.tsx`
 
 **修改前（第 86 行）：**
 ```typescript
@@ -181,8 +181,8 @@ RAPIDAPI_KEY=a16eea636fmshe1dc5df415129cap1c17d4jsn40c897990951
 
 ## 相关文件
 
-- `app/pages/blog/page.tsx` - 博客页面主文件
-- `app/pages/blog/_components/Unit5/index.tsx` - 文章列表组件
+- `app/blog/page.tsx` - 博客页面主文件
+- `app/blog/_components/Unit5/index.tsx` - 文章列表组件
 - `app/api/medium/route.ts` - Medium API 路由
 - `app/utils/mediumApi.ts` - MediumAPI 客户端
 - `app/utils/mediumApiAdapter.ts` - 数据适配器

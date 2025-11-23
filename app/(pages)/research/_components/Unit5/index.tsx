@@ -98,7 +98,7 @@ const Unit5 = ({ articles }: Props) => {
                 </div>
                 <div className="flex flex-col justify-between mobile:w-full gap-y-[30px]">
                     <div className="max-w-full w-[479px] opacity-60 justify-start text-[#254441] text-[18px] font-medium leading-[144%] tracking-[-0.32px]">{content.articles.description}</div>
-                    <a href="/pages/blog" className="w-max px-[22px] py-[12px] bg-[#43AA8B] rounded-[9px] shadow-[0px_0.6000000238418579px_1.2000000476837158px_0px_rgba(67,170,139,0.12)] shadow-[inset_0px_-0.6000000238418579px_0.9000000357627869px_0px_rgba(67,170,139,0.12)] inline-flex justify-center items-center gap-2.5 cursor-pointer transition-colors duration-200 hover:bg-[#3A9278]">
+                    <a href="/blog" className="w-max px-[22px] py-[12px] bg-[#43AA8B] rounded-[9px] shadow-[0px_0.6000000238418579px_1.2000000476837158px_0px_rgba(67,170,139,0.12)] shadow-[inset_0px_-0.6000000238418579px_0.9000000357627869px_0px_rgba(67,170,139,0.12)] inline-flex justify-center items-center gap-2.5 cursor-pointer transition-colors duration-200 hover:bg-[#3A9278]">
                         <div className="text-center text-[#F7F7F7] text-[15px] font-medium leading-[106%] tracking-[-0.3px]">{content.articles.buttonLabel}</div>
                     </a>
                     {/* <div className="flex">
@@ -127,7 +127,7 @@ const Unit5 = ({ articles }: Props) => {
                 </div>
             ) : null}
 
-            <a href="/pages/blog" className="pt-[15px] group mx-auto my-[68px] w-max px-[20px] pb-[12px] rounded-[9px] shadow-[0px_0.6000000238418579px_1.2000000476837158px_0px_rgba(67,170,139,0.12)] shadow-[inset_0px_-0.6000000238418579px_0.9000000357627869px_0px_rgba(67,170,139,0.12)] border border-1 border-solid border-[#43AA8B] flex justify-center items-center gap-2.5 cursor-pointer transition-colors duration-200 hover:bg-[#3A9278]">
+            <a href="/blog" className="pt-[15px] group mx-auto my-[68px] w-max px-[20px] pb-[12px] rounded-[9px] shadow-[0px_0.6000000238418579px_1.2000000476837158px_0px_rgba(67,170,139,0.12)] shadow-[inset_0px_-0.6000000238418579px_0.9000000357627869px_0px_rgba(67,170,139,0.12)] border border-1 border-solid border-[#43AA8B] flex justify-center items-center gap-2.5 cursor-pointer transition-colors duration-200 hover:bg-[#3A9278]">
                 <div className="text-center text-[#43AA8B] tracking-[-0.3px] text-[15px] font-medium leading-[106%] group-hover:text-[#F7F7F7]">{content.articles.moreLabel}</div>
             </a>
         </div>

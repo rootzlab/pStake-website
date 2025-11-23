@@ -33,7 +33,7 @@ jobs:
       - run: npm run export --if-present
       - name: Publish
         id: publish
-        uses: cloudflare/pages-action@1
+        uses: cloudflare-action@1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

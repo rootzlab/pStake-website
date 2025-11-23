@@ -24,7 +24,7 @@ export async function generateMetadata({ params, searchParams }: PageProps): Pro
       return generatePageMetadata({
         title: article.title || "Blog Article",
         description: article.summary || "Read the latest from PSTAKE Research",
-        path: `/pages/blog/${id}`,
+        path: `/blog/${id}`,
         locale,
         type: "article",
       });
@@ -43,7 +43,7 @@ export async function generateMetadata({ params, searchParams }: PageProps): Pro
   return generatePageMetadata({
     title: "Blog Article",
     description: defaultDescriptions[locale],
-    path: `/pages/blog/${id}`,
+    path: `/blog/${id}`,
     locale,
     type: "article",
   });

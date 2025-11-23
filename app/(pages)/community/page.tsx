@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import Header from "./_components/Header";
 import "./index.scss";
-import Unit1 from "@/app/pages/community/_components/Unit1";
-import Unit2 from "@/app/pages/community/_components/Unit2";
-import Unit6 from "@/app/pages/community/_components/Unit6";
-import Unit7 from "@/app/pages/community/_components/Unit7";
+import Unit1 from "@/app/(pages)/community/_components/Unit1";
+import Unit2 from "@/app/(pages)/community/_components/Unit2";
+import Unit6 from "@/app/(pages)/community/_components/Unit6";
+import Unit7 from "@/app/(pages)/community/_components/Unit7";
 import Footer from "@/app/_components/Footer";
 import Navbar from "@/app/_components/Navbar";
 import { generatePageMetadata } from "@/app/utils/seo";
@@ -23,7 +23,7 @@ export async function generateMetadata(): Promise<Metadata> {
     return generatePageMetadata({
         title: "Community",
         description: descriptions[locale],
-        path: "/pages/community",
+        path: "/community",
         locale,
     });
 }

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Header from "./_components/Header";
 import "./index.scss";
-import Unit1 from "@/app/pages/blog/_components/Unit1";
-import Unit5 from "@/app/pages/blog/_components/Unit5";
+import Unit1 from "@/app/(pages)/blog/_components/Unit1";
+import Unit5 from "@/app/(pages)/blog/_components/Unit5";
 import Footer from "@/app/_components/Footer";
 import Navbar from "@/app/_components/Navbar";
 import { DEFAULT_MEDIUM_SOURCE } from "@/app/utils/medium";
@@ -27,7 +27,7 @@ export async function generateMetadata(): Promise<Metadata> {
     return generatePageMetadata({
         title: "Blog",
         description: descriptions[locale],
-        path: "/pages/blog",
+        path: "/blog",
         locale,
     });
 }
