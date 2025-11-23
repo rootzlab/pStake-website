@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import Header from "./_components/Header";
 import "./index.scss";
-import Unit1 from "@/app/pages/roadmap/_components/Unit1";
-import Unit5 from "@/app/pages/roadmap/_components/Unit5";
+import Unit1 from "@/app/(pages)/roadmap/_components/Unit1";
+import Unit5 from "@/app/(pages)/roadmap/_components/Unit5";
 import Footer from "@/app/_components/Footer";
 import Navbar from "@/app/_components/Navbar";
-import Unit2 from "@/app/pages/roadmap/_components/Unit2";
+import Unit2 from "@/app/(pages)/roadmap/_components/Unit2";
 import { generatePageMetadata } from "@/app/utils/seo";
 import { getLocale } from "next-intl/server";
 import { defaultLocale, type Locale } from "@/i18n";
@@ -22,7 +22,7 @@ export async function generateMetadata(): Promise<Metadata> {
     return generatePageMetadata({
         title: "Roadmap",
         description: descriptions[locale],
-        path: "/pages/roadmap",
+        path: "/roadmap",
         locale,
     });
 }

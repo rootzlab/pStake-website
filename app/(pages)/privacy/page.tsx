@@ -20,7 +20,7 @@ export async function generateMetadata(): Promise<Metadata> {
     return generatePageMetadata({
         title: "Privacy",
         description: descriptions[locale],
-        path: "/pages/privacy",
+        path: "/privacy",
         locale,
     });
 }

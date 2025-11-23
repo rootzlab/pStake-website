@@ -61,7 +61,7 @@ export async function fetchMediumFeed(...) {
 
 ### 3. Next.js 页面缓存已禁用
 
-**文件:** `app/pages/blog/page.tsx`
+**文件:** `app/blog/page.tsx`
 
 **修改:**
 - 第 15 行：添加 `export const dynamic = 'force-dynamic'`
@@ -156,7 +156,7 @@ Array(11) [ {…}, {…}, ... ]  // 11 个元素
 
 ### 3. 恢复页面缓存
 
-**文件:** `app/pages/blog/page.tsx`
+**文件:** `app/blog/page.tsx`
 
 ```typescript
 // 移除 force-dynamic

@@ -45,7 +45,7 @@ const Navbar = ({ color = "red", className = "" }) => {
                 href: "https://blog.pstake.finance/2025/08/07/pstake-foundation-opens-applications-for-50m-ai-web3-innovation-fund/"
             },
             { label: t('nav.research'), href: "https://pstake.finance/research" },
-            { label: t('nav.blog'), href: "/pages/blog" }
+            { label: t('nav.blog'), href: "/blog" }
         ],
         governance: [
             { label: t('nav.governanceForum'), href: "https://forum.pstake.finance/" },

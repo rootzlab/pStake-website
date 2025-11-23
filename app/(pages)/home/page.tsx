@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import Header from "./_components/Header";
 import "./index.scss";
-import Unit1 from "@/app/pages/home/_components/Unit1";
-import Unit2 from "@/app/pages/home/_components/Unit2";
-import Unit3 from "@/app/pages/home/_components/Unit3";
-import Unit4 from "@/app/pages/home/_components/Unit4";
-import Unit5 from "@/app/pages/home/_components/Unit5";
-import Unit6 from "@/app/pages/home/_components/Unit6";
+import Unit1 from "@/app/(pages)/home/_components/Unit1";
+import Unit2 from "@/app/(pages)/home/_components/Unit2";
+import Unit3 from "@/app/(pages)/home/_components/Unit3";
+import Unit4 from "@/app/(pages)/home/_components/Unit4";
+import Unit5 from "@/app/(pages)/home/_components/Unit5";
+import Unit6 from "@/app/(pages)/home/_components/Unit6";
 import Footer from "@/app/_components/Footer";
 import Navbar from "@/app/_components/Navbar";
 import { DEFAULT_MEDIUM_SOURCE, fetchMediumFeed } from "@/app/utils/medium";
@@ -26,7 +26,7 @@ export async function generateMetadata(): Promise<Metadata> {
     return generatePageMetadata({
         title: "Home",
         description: descriptions[locale],
-        path: "/pages/home",
+        path: "/home",
         locale,
     });
 }

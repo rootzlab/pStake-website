@@ -119,7 +119,7 @@ const Unit5 = ({ articles }: Props) => {
                     <div className="text-[18px] text-[#160704] tracking-[-0.36px] [leading-trim:both] leading-[144%] mobile:text-[14px] mobile:tracking-[-0.24px]">
                         {unit5.description}
                     </div>
-                    <a href="/pages/research" target="_blank" className="flex group w-max">
+                    <a href="/research" target="_blank" className="flex group w-max">
                         <img src="/img/icon3.svg" className="size-[15px] mobile:size-[12px]" alt="" />
                         <div className="text-[#160704] font-medium ml-[9px] opacity-60 text-[12px] tracking-[0.72px] text-[12px] mobile:text-[11px] mobile:ml-[6px]">
                             {unit5.featuredLabel}

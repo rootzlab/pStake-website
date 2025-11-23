@@ -89,8 +89,8 @@ export const homeContent: Record<Locale, HomeContent> = {
       titleLines: ['The Research Layer for', 'Web3 & AI Collaboration'],
       descriptionHighlight: 'PSTAKE Research',
       description: ['primitives with autonomous action,', ' modular assets, and cross-chain interoperability.'],
-      primaryCta: { label: 'Learn More', href: '/pages/research' },
-      secondaryCta: { label: 'Get Started', href: '/pages/community' }
+      primaryCta: { label: 'Learn More', href: '/research' },
+      secondaryCta: { label: 'Get Started', href: '/community' }
     },
     unit1: {
       metrics: [
@@ -186,8 +186,8 @@ export const homeContent: Record<Locale, HomeContent> = {
       titleLines: ['Web3 与 AI 协作的', '研究层'],
       descriptionHighlight: 'PSTAKE Research',
       description: ['拥有自主行动、', '模块化资产与跨链互操作性的研究原语。'],
-      primaryCta: { label: '了解更多', href: '/pages/research' },
-      secondaryCta: { label: '开始使用', href: '/pages/community' }
+      primaryCta: { label: '了解更多', href: '/research' },
+      secondaryCta: { label: '开始使用', href: '/community' }
     },
     unit1: {
       metrics: [
@@ -276,8 +276,8 @@ export const homeContent: Record<Locale, HomeContent> = {
       titleLines: ['Web3와 AI 협업을 위한', '리서치 레이어'],
       descriptionHighlight: 'PSTAKE Research',
       description: ['자율 실행,', '모듈형 자산, 체인 간 상호운용성을 갖춘 연구 프리미티브입니다.'],
-      primaryCta: { label: '더 알아보기', href: '/pages/research' },
-      secondaryCta: { label: '시작하기', href: '/pages/community' }
+      primaryCta: { label: '더 알아보기', href: '/research' },
+      secondaryCta: { label: '시작하기', href: '/community' }
     },
     unit1: {
       metrics: [

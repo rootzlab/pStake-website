@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import Header from "./_components/Header";
 import "./index.scss";
-import Unit1 from "@/app/pages/research/_components/Unit1";
-import Unit4 from "@/app/pages/research/_components/Unit4";
-import Unit5 from "@/app/pages/research/_components/Unit5";
+import Unit1 from "@/app/(pages)/research/_components/Unit1";
+import Unit4 from "@/app/(pages)/research/_components/Unit4";
+import Unit5 from "@/app/(pages)/research/_components/Unit5";
 import Footer from "@/app/_components/Footer";
 import Navbar from "@/app/_components/Navbar";
 import { DEFAULT_MEDIUM_SOURCE, fetchMediumFeed } from "@/app/utils/medium";
@@ -23,7 +23,7 @@ export async function generateMetadata(): Promise<Metadata> {
     return generatePageMetadata({
         title: "Research",
         description: descriptions[locale],
-        path: "/pages/research",
+        path: "/research",
         locale,
     });
 }

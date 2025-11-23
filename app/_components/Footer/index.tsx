@@ -24,7 +24,7 @@ const Footer = ({ className = "" }) => {
                             {t('footer.ecosystem')}
                         </div>
                         <div className="text-[#F7F7F7]/60 font-medium text-[15px] leading-[1em] flex flex-col gap-y-[17px] mobile:gap-y-[12px] mobile:items-start mobile:text-[14px]">
-                            <Link href="/pages/roadmap" className="text-[#F7F7F7]/60 hover:text-white transition-colors cursor-pointer">{t('nav.roadmap')}</Link>
+                            <Link href="/roadmap" className="text-[#F7F7F7]/60 hover:text-white transition-colors cursor-pointer">{t('nav.roadmap')}</Link>
                             <a href="https://forum.pstake.finance/" target="_blank" className="text-[#F7F7F7]/60 hover:text-white transition-colors cursor-pointer">{t('nav.governance')}</a>
                             <div className="text-[#F7F7F7]/60 hover:text-white transition-colors cursor-pointer">{t('footer.pressKit')}</div>
                         </div>
@@ -38,7 +38,7 @@ const Footer = ({ className = "" }) => {
                             <a href="https://www.pstake.finance/community" target="_blank" className="text-[#F7F7F7]/60 hover:text-white transition-colors">
                                 {t('nav.communityHub')}
                             </a>
-                            <a href="/pages/blog" target="_blank" className="text-[#F7F7F7]/60 hover:text-white transition-colors">
+                            <a href="/blog" target="_blank" className="text-[#F7F7F7]/60 hover:text-white transition-colors">
                                 {t('nav.blog')}
                             </a>
                             <a href="https://blog.pstake.finance/category/bitcoin-liquid-staking/?lang=en" target="_blank" className="text-[#F7F7F7]/60 hover:text-white transition-colors">
@@ -52,7 +52,7 @@ const Footer = ({ className = "" }) => {
                             {t('footer.product')}
                         </div>
                         <div className="text-[#F7F7F7]/60 font-medium text-[15px] leading-[1em] flex flex-col gap-y-[17px] mobile:gap-y-[12px] mobile:items-start mobile:text-[14px]">
-                            <Link href="/pages/research" className="text-[#F7F7F7]/60 hover:text-white transition-colors">
+                            <Link href="/research" className="text-[#F7F7F7]/60 hover:text-white transition-colors">
                                 {t('nav.research')}
                             </Link>
                             <a href="https://app.btc.pstake.finance/?lang=en" target="_blank" className="text-[#F7F7F7]/60 hover:text-white transition-colors">
@@ -95,13 +95,13 @@ const Footer = ({ className = "" }) => {
                     </div>
                 </div>
                 <div className="flex gap-x-[15px] text-[#F7F7F7] items-center mt-[34px] leading-[1em] text-[12px] tracking-[0.1px] mobile:mt-0">
-                    <Link href="/pages/terms" className="opacity-[.54] hover:opacity-100 transition-colors cursor-pointer">
+                    <Link href="/terms" className="opacity-[.54] hover:opacity-100 transition-colors cursor-pointer">
                         {t('footer.termsOfService')}
                     </Link>
                     <svg className="size-[3px] shrink-0" xmlns="http://www.w3.org/2000/svg" width="3" height="3" viewBox="0 0 3 3" fill="none">
                         <circle opacity="0.3" cx="1.5" cy="1.5" r="1.5" fill="#F7F7F7" />
                     </svg>
-                    <Link href="/pages/privacy" className="opacity-[.54] hover:opacity-100 transition-colors cursor-pointer">
+                    <Link href="/privacy" className="opacity-[.54] hover:opacity-100 transition-colors cursor-pointer">
                         {t('footer.privacyPolicy')}
                     </Link>
                 </div>

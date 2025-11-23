@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import HomePage from "./pages/home/page";
+import HomePage from "./(pages)/home/page";
 
 export const metadata: Metadata = {
   title: "PSTAKE | Home",
