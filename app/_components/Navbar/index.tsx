@@ -87,9 +87,9 @@ const Navbar = ({ color = "red", className = "" }) => {
         {
             title: t('nav.staking'),
             links: [
-                { label: t('nav.liquidStaking'), href: "https://app.btc.pstake.finance/?lang=en" },
-                { label: t('nav.pstakeStaking'), href: "https://app.btc.pstake.finance/pstake/staking?lang=en" },
-                { label: t('nav.institutionalStaking'), href: "https://pstake.finance/institutional?lang=en" }
+                { label: t('nav.liquidStaking'), href: "https://deprecation.pstake.finance/" },
+                { label: t('nav.pstakeStaking'), href: "https://deprecation.pstake.finance/" },
+                { label: t('nav.institutionalStaking'), href: "https://deprecation.pstake.finance/" }
             ],
             withDivider: true
         }
